@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حریم خصوصی و شرایط استفاده — پولام</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Vazirmatn', 'Tahoma', 'Arial', sans-serif;
+            line-height: 1.8;
+            color: #222;
+            background: #f5f7fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #20C7B0;
+            font-size: 24px;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #20C7B0;
+            padding-bottom: 12px;
+        }
+        h2 {
+            color: #1a1a1a;
+            font-size: 18px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            padding-right: 12px;
+            border-right: 4px solid #20C7B0;
+        }
+        h3 {
+            font-size: 15px;
+            margin-top: 16px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        p, li {
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        ul, ol {
+            padding-right: 24px;
+            margin-bottom: 12px;
+        }
+        li { margin-bottom: 6px; }
+        .meta {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 24px;
+        }
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid #eee;
+        }
+        .tab-btn {
+            background: none;
+            border: none;
+            padding: 12px 20px;
+            font-size: 15px;
+            font-family: inherit;
+            cursor: pointer;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            color: #20C7B0;
+            border-bottom-color: #20C7B0;
+            font-weight: bold;
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .contact {
+            background: #E8F6F3;
+            padding: 16px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #20C7B0;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover { text-decoration: underline; }
+        @media (max-width: 600px) {
+            .container { padding: 24px 16px; }
+            h1 { font-size: 20px; }
+            h2 { font-size: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h1>پولام (Poolam)</h1>
+        <p class="meta">آخرین به‌روزرسانی: مهر ۱۴۰۵</p>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('privacy')">حریم خصوصی</button>
+            <button class="tab-btn" onclick="showTab('terms')">شرایط استفاده</button>
+            <button class="tab-btn" onclick="showTab('about')">درباره</button>
+        </div>
+
+        <!-- ═══ حریم خصوصی ═══ -->
+        <div id="privacy" class="tab-content active">
+            <h2>۱. معرفی</h2>
+            <p>پولام یک برنامه مدیریت مالی شخصی است. داده‌های مالی شما روی دستگاه خودتان ذخیره می‌شود و به‌صورت پیش‌فرض به سرور ما ارسال نمی‌شود.</p>
+
+            <h2>۲. داده‌هایی که ممکن است پردازش شوند</h2>
+            <ul>
+                <li>اطلاعات حساب‌ها و تراکنش‌هایی که خودتان وارد می‌کنید</li>
+                <li>یادداشت و برچسب‌های تراکنش</li>
+                <li>در صورت اعطای مجوز: پیامک‌های بانکی برای پیشنهاد ثبت تراکنش</li>
+                <li>تنظیمات برنامه (از جمله قفل و اشتراک روی همین دستگاه)</li>
+            </ul>
+
+            <h2>۳. ذخیره‌سازی</h2>
+            <p>اطلاعات اصلی در پایگاه‌داده محلی روی گوشی نگهداری می‌شود و به‌صورت پیش‌فرض به سرور ما ارسال نمی‌شود.</p>
+
+            <h2>۴. مجوز پیامک</h2>
+            <p>مجوز خواندن پیامک فقط برای کمک به ثبت تراکنش‌های بانکی است و استفاده از آن به اختیار شماست. می‌توانید بدون این مجوز از ثبت دستی استفاده کنید.</p>
+
+            <h2>۵. پشتیبان‌گیری</h2>
+            <p>اگر از قابلیت بک‌اپ استفاده کنید، فایل خروجی توسط خود شما نگهداری و جابه‌جا می‌شود. مسئولیت محافظت از آن فایل با شماست.</p>
+
+            <h2>۶. اشتراک و خرید</h2>
+            <p>وضعیت اشتراک روی دستگاه مدیریت می‌شود. جزئیات پرداخت طبق سیاست همان فروشگاه (مانند کافه‌بازار یا مایکت) است.</p>
+
+            <h2>۷. امنیت</h2>
+            <p>می‌توانید برای ورود به برنامه از قفل PIN یا زیست‌سنجشی دستگاه استفاده کنید. ریست داده‌های حساس در صورت فعال بودن قفل، نیازمند تأیید هویت است.</p>
+
+            <h2>۸. کودکان</h2>
+            <p>این برنامه برای مدیریت مالی شخصی بزرگسالان طراحی شده است.</p>
+
+            <h2>۹. تغییرات</h2>
+            <p>ممکن است این متن به‌روزرسانی شود. نسخهٔ جدید در همین صفحه قابل مشاهده خواهد بود.</p>
+        </div>
+
+        <!-- ═══ شرایط استفاده ═══ -->
+        <div id="terms" class="tab-content">
+            <h2>۱. پذیرش شرایط</h2>
+            <p>با نصب و استفاده از پولام، این شرایط را می‌پذیرید. اگر موافق نیستید، از برنامه استفاده نکنید.</p>
+
+            <h2>۲. ماهیت برنامه</h2>
+            <p>پولام ابزار کمکی برای ثبت و گزارش هزینه‌ها و درآمدهاست و جایگزین مشاوره مالی، حسابداری رسمی یا خدمات بانکی نیست.</p>
+
+            <h2>۳. مسئولیت کاربر</h2>
+            <ul>
+                <li>صحت ارقام و تراکنش‌های واردشده بر عهده شماست.</li>
+                <li>پیش از ریست یا بازیابی، از داده‌های مهم خود نسخه پشتیبان تهیه کنید.</li>
+                <li>از برنامه مطابق قوانین کشور محل استفاده بهره ببرید.</li>
+            </ul>
+
+            <h2>۴. محدودیت مسئولیت</h2>
+            <p>توسعه‌دهنده و ناشر در حدود مجاز قانونی، مسئول خسارت ناشی از:</p>
+            <ul>
+                <li>اشتباه در ورود داده توسط کاربر</li>
+                <li>از دست رفتن داده به‌دلیل حذف برنامه، خرابی دستگاه، یا عدم تهیه بک‌اپ</li>
+                <li>تصمیم‌های مالی اتخاذشده بر اساس گزارش‌های برنامه</li>
+            </ul>
+            <p>نمی‌باشند. استفاده از برنامه «همان‌گونه که هست» ارائه می‌شود.</p>
+
+            <h2>۵. مجوز پیامک و داده‌های بانکی</h2>
+            <p>تحلیل پیامک صرفاً برای تسهیل ثبت است. مسئولیت مطابقت با واقعیت حساب بانکی با کاربر است.</p>
+
+            <h2>۶. اشتراک</h2>
+            <p>امکانات پیشرفته ممکن است پس از دوره آزمایشی محدود شوند. شرایط خرید طبق فروشگاه ارائه‌دهنده است. انتقال غیرمجاز اشتراک بین دستگاه‌ها یا حساب‌ها مجاز نیست.</p>
+
+            <h2>۷. مالکیت فکری</h2>
+            <p>نام، طراحی و کد برنامه متعلق به ناشر است. مهندسی معکوس برای نقض حقوق یا دور زدن محدودیت اشتراک مجاز نیست.</p>
+
+            <h2>۸. تغییرات سرویس</h2>
+            <p>ممکن است قابلیت‌ها در نسخه‌های بعدی تغییر کند. ادامه استفاده پس از به‌روزرسانی به معنای پذیرش شرایط جدید است.</p>
+
+            <h2>۹. قانون حاکم</h2>
+            <p>در چارچوب قوانین جمهوری اسلامی ایران تفسیر می‌شود، مگر الزام فروشگاه یا مرجع صالح خلاف آن باشد.</p>
+        </div>
+
+        <!-- ═══ درباره ═══ -->
+        <div id="about" class="tab-content">
+            <h2>درباره پولام</h2>
+            <p>پولام یک برنامه مدیریت دخل و خرج شخصی است که به شما کمک می‌کند:</p>
+            <ul>
+                <li>هزینه‌ها و درآمدهای خود را ثبت و دسته‌بندی کنید</li>
+                <li>تراکنش‌های بانکی را از پیامک‌های بانکی به‌طور خودکار تشخیص دهید</li>
+                <li>گزارش‌های دقیق از روند مالی خود بگیرید</li>
+                <li>از داده‌های خود نسخه پشتیبان رمزنگاری‌شده تهیه کنید</li>
+            </ul>
+
+            <h2>داده‌های شما، دستگاه شما</h2>
+            <p>پولام تمام داده‌های شما را روی دستگاه خودتان نگه می‌دارد. هیچ سروری وجود ندارد که اطلاعات شما را ذخیره کند. این یعنی:</p>
+            <ul>
+                <li>حریم خصوصی کامل</li>
+                <li>سرعت بالا</li>
+                <li>عدم نیاز به اینترنت</li>
+                <li>کنترل کامل روی داده‌ها</li>
+            </ul>
+
+            <div class="contact">
+                <h2>تماس با ما</h2>
+                <p>برای هر پرسش، پیشنهاد یا گزارش مشکل، از طریق صفحه برنامه در فروشگاه (کافه‌بازار یا مایکت) با ما در تماس باشید.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // پنهان کردن همه
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            // نمایش انتخاب‌شده
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
